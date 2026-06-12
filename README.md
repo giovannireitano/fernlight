@@ -1,20 +1,12 @@
 # Fernlight
 
-Marketing site for Fernlight, a digital marketing and website building studio.
+Projects for Fernlight, a digital marketing and website building studio.
 
-Built with [Next.js](https://nextjs.org) (App Router, TypeScript) and plain CSS. The page is fully static — no server-side data fetching.
+## Sub-projects
 
-## Development
+- [`website/`](website/) — marketing site at fernlightdigital.com (Next.js)
 
-```bash
-pnpm install
-pnpm dev        # http://localhost:3000
-```
+## Working on a sub-project
 
-## Other commands
-
-```bash
-pnpm build      # production build
-pnpm start      # serve the production build
-pnpm typecheck  # TypeScript check
-```
+Each sub-project is self-contained with its own README, dependencies, and
+scripts. `cd` into its directory and follow its README.
