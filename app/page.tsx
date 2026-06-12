@@ -275,9 +275,9 @@ export default function Home() {
             <div className="hero-actions reveal">
               <a
                 className="btn btn-primary btn-lg"
-                href="mailto:hello@fernlight.studio?subject=Project%20inquiry"
+                href="mailto:hello@fernlightdigital.com?subject=Project%20inquiry"
               >
-                hello@fernlight.studio
+                hello@fernlightdigital.com
               </a>
             </div>
           </div>
