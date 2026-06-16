@@ -445,3 +445,123 @@ p {
     width: 160px;
   }
 }
+
+/* ---- Contact meta ---- */
+
+.contact-meta {
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+  color: var(--text-dim);
+}
+
+.contact-meta a {
+  color: var(--text-dim);
+  text-decoration: none;
+}
+
+.contact-meta a:hover {
+  color: var(--accent);
+}
+
+/* ---- Footer additions ---- */
+
+.footer-contact {
+  text-align: center;
+}
+
+.footer-contact a {
+  color: var(--text-dim);
+  text-decoration: none;
+}
+
+.footer-contact a:hover {
+  color: var(--accent);
+}
+
+.footer-links {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.footer-links a {
+  color: var(--text-dim);
+  text-decoration: none;
+  font-size: 0.88rem;
+}
+
+.footer-links a:hover {
+  color: var(--accent);
+}
+
+.footer-copy {
+  width: 100%;
+  text-align: center;
+  opacity: 0.75;
+  margin-top: 0.5rem;
+}
+
+/* ---- Legal pages ---- */
+
+.legal {
+  padding: 4.5rem 0 5rem;
+}
+
+.legal .container {
+  max-width: 760px;
+}
+
+.legal h1 {
+  font-size: clamp(2rem, 5vw, 3rem);
+  margin-bottom: 0.4rem;
+}
+
+.legal .updated {
+  font-size: 0.9rem;
+  color: var(--text-dim);
+  margin-bottom: 2.5rem;
+}
+
+.legal section {
+  margin-bottom: 2rem;
+}
+
+.legal h2 {
+  font-size: 1.35rem;
+  max-width: none;
+  margin: 0 0 0.75rem;
+}
+
+.legal p {
+  margin-bottom: 0.85rem;
+}
+
+.legal ul {
+  padding-left: 1.25rem;
+  margin-bottom: 0.85rem;
+}
+
+.legal li {
+  color: var(--text-dim);
+  margin-bottom: 0.5rem;
+}
+
+.legal a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.legal a:hover {
+  text-decoration: underline;
+}
+
+.legal .back {
+  display: inline-block;
+  margin-bottom: 2rem;
+  color: var(--text-dim);
+  font-size: 0.9rem;
+}
+
+.legal .back:hover {
+  color: var(--accent);
+  text-decoration: none;
+}

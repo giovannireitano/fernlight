@@ -1,5 +1,6 @@
 import { FernMark } from "@/components/FernMark";
 import { RevealObserver } from "@/components/RevealObserver";
+import { SiteFooter } from "@/components/SiteFooter";
 
 export default function Home() {
   return (
@@ -280,21 +281,16 @@ export default function Home() {
                 hello@fernlightdigital.com
               </a>
             </div>
+            <p className="reveal contact-meta">
+              Fernlight Digital · 1928 Clearbrook Drive
+              <br />
+              <a href="tel:+16198486569">+1 (619) 848-6569</a>
+            </p>
           </div>
         </section>
       </main>
 
-      <footer className="footer">
-        <div className="container footer-inner">
-          <a className="brand brand-sm" href="#top" aria-label="Back to top">
-            <FernMark />
-            <span className="brand-name">Fernlight</span>
-          </a>
-          <p className="footer-note">
-            © 2026 Fernlight. Websites &amp; digital marketing.
-          </p>
-        </div>
-      </footer>
+      <SiteFooter />
     </>
   );
 }
